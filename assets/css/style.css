@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: #dbdbdb;
 }
 
 .mobile-nav-active {
@@ -245,6 +245,8 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/cover.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
 
 @media (min-width: 992px) {
@@ -433,7 +435,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
