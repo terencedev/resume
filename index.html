@@ -323,6 +323,12 @@
         }
       }
     });
+
+    var s2 = skrollr.get(); // get() returns the skrollr instance or undefined
+    var windowWidth = $(window).width();
+    if ( windowWidth <= 640 && s2 !== undefined ) {
+      s2.destroy();
+    }
   </script>
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
