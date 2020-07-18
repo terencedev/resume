@@ -394,13 +394,24 @@ a.-underline {
 
 @media (max-width:699px) {
     .o-h1, h1 {
-        font-size: 6vw
+        font-size: 9vw
+    }
+    .c-summary_list {
+        margin-bottom: 15px;
+    }
+    .c-cta_button {
+        margin-top: 10px!important;
     }
 }
 
+
+
 @media (min-width:700px) and (max-width:1599px) {
     .o-h1, h1 {
-        font-size: 8vw
+        font-size: 9vw
+    }
+    .c-cta_button {
+        margin-top: 20px!important;
     }
 }
 
