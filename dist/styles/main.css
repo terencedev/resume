@@ -2035,7 +2035,7 @@ html[data-direction=up] .c-choochoo_item.-reverse span {
     text-transform: uppercase;
     display: block;
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #45505b;
   }
   
@@ -2158,6 +2158,9 @@ html[data-direction=up] .c-choochoo_item.-reverse span {
         position: relative;
         display: none;
       }
+    .thankyou {
+        margin-top: 30px;
+    }
 }
 
 @media (min-width:700px) {
